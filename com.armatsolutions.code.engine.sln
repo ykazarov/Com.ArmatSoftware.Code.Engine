@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmatSolutions.Code.Engine.Core", "ArmatSolutions.Code.Engine.Core\ArmatSolutions.Code.Engine.Core.csproj", "{C8441187-C413-4481-AC97-5DA9C2EB0A22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmatSolutions.Code.Engine.Compiler", "ArmatSolutions.Code.Engine.Compiler\ArmatSolutions.Code.Engine.Compiler.csproj", "{B8577815-2438-4094-9967-7DBE9E4A24B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmatSolutions.Code.Engine.Tests.Unit", "ArmatSolutions.Code.Engine.Tests.Unit\ArmatSolutions.Code.Engine.Tests.Unit.csproj", "{15C3EECD-B0E5-4F5E-B81D-18419E78283D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8441187-C413-4481-AC97-5DA9C2EB0A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8441187-C413-4481-AC97-5DA9C2EB0A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8441187-C413-4481-AC97-5DA9C2EB0A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8441187-C413-4481-AC97-5DA9C2EB0A22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8577815-2438-4094-9967-7DBE9E4A24B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8577815-2438-4094-9967-7DBE9E4A24B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8577815-2438-4094-9967-7DBE9E4A24B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8577815-2438-4094-9967-7DBE9E4A24B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15C3EECD-B0E5-4F5E-B81D-18419E78283D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C3EECD-B0E5-4F5E-B81D-18419E78283D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C3EECD-B0E5-4F5E-B81D-18419E78283D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C3EECD-B0E5-4F5E-B81D-18419E78283D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

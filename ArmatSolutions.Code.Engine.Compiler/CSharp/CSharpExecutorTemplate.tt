@@ -1,0 +1,46 @@
+﻿<#@ template language="C#" debug="true" hostspecific="false" #>
+<#@ output extension=".cs" #>
+<#@ assembly name="System.Core" #>
+
+<#@ import namespace="System" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+
+<# foreach (var import in Configuration.GetImports()) { #>
+using <#=import#>;
+<# } #>
+
+namespace <#=Configuration.GetNamespace()#>
+{
+	public class <#=Configuration.GetClassName()#> : IExecutor<<#=Configuration.GetSubjectType()#>>
+	{
+		private Dictionary<string, dynamic> runtimeValues = new Dictionary<string, dynamic>();
+
+		public <#=Configuration.GetSubjectType()#> Subject { get; set; }
+
+		public dynamic Get(string key)
+		{
+			return this.runtimeValues[key];
+		}
+
+		public void Set(string key, dynamic value)
+		{
+			this.runtimeValues.Add(key, value);
+		}
+
+		public void Execute()
+		{
+<# foreach (var action in Configuration.GetActions()) { #>
+			<#=action.Key#>();
+<# } #>
+		}
+		
+<# foreach (var action in Configuration.GetActions()) { #>
+		private void <#=action.Key#>()
+		{
+			<#=action.Value#>
+		}
+<# } #>
+	}
+}
