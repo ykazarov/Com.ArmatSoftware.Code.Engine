@@ -1,4 +1,4 @@
-﻿namespace ArmatSolutions.Code.Engine.Compiler
+﻿namespace ArmatSoftware.Code.Engine.Compiler
 {
 	public interface ITemplateGenerator<S> where S : class
 	{

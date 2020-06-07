@@ -1,9 +1,9 @@
 using System;
-using ArmatSolutions.Code.Engine.Compiler;
-using ArmatSolutions.Code.Engine.Compiler.CSharp;
+using ArmatSoftware.Code.Engine.Compiler;
+using ArmatSoftware.Code.Engine.Compiler.CSharp;
 using NUnit.Framework;
 
-namespace ArmatSolutions.Code.Engine.Tests.Unit
+namespace ArmatSoftware.Code.Engine.Tests.Unit
 {
 	[TestFixture]
 	public class CompilerTests : CompilerTestBase<TestSubject>
@@ -93,7 +93,7 @@ namespace ArmatSolutions.Code.Engine.Tests.Unit
 
 		public void Build()
 		{
-			Configuration = new CompilerConfiguration<S>("ArmatSolutions.Code.Engine.Tests.Executors");
+			Configuration = new CompilerConfiguration<S>("ArmatSoftware.Code.Engine.Tests.Executors");
 
 			Compiler = new CSharpCompiler<S>();
 		}

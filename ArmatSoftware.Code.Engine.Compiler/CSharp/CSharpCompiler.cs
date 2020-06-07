@@ -7,12 +7,12 @@ using System.Runtime.CompilerServices;
 using System.Runtime.Loader;
 using System.Runtime.Remoting;
 using System.Text;
-using ArmatSolutions.Code.Engine.Core;
+using ArmatSoftware.Code.Engine.Core;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.Emit;
 
-namespace ArmatSolutions.Code.Engine.Compiler.CSharp
+namespace ArmatSoftware.Code.Engine.Compiler.CSharp
 {
 	/// <summary>
 	/// Default implementation for the C# compiler

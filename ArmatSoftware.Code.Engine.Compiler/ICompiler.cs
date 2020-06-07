@@ -1,6 +1,6 @@
-﻿using ArmatSolutions.Code.Engine.Core;
+﻿using ArmatSoftware.Code.Engine.Core;
 
-namespace ArmatSolutions.Code.Engine.Compiler
+namespace ArmatSoftware.Code.Engine.Compiler
 {
 	/// <summary>
 	/// Compiler of actions into an executor

@@ -1,4 +1,4 @@
-﻿namespace ArmatSolutions.Code.Engine.Core
+﻿namespace ArmatSoftware.Code.Engine.Core
 {
 	/// <summary>
 	/// Action that is taken against the subject

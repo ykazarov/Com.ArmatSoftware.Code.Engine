@@ -1,6 +1,6 @@
-﻿using ArmatSolutions.Code.Engine.Core;
+﻿using ArmatSoftware.Code.Engine.Core;
 
-namespace ArmatSolutions.Code.Engine.Tests.Unit
+namespace ArmatSoftware.Code.Engine.Tests.Unit
 {
 	public class TestAction : IAction<TestSubject>
 	{

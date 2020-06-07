@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ArmatSolutions.Code.Engine.Compiler.CSharp {
+namespace ArmatSoftware.Code.Engine.Compiler.CSharp {
     using System;
     using System.Linq;
     using System.Text;

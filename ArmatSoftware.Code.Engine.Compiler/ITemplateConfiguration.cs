@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ArmatSolutions.Code.Engine.Compiler
+namespace ArmatSoftware.Code.Engine.Compiler
 {
 	/// <summary>
 	/// Configuration for generating teamplate

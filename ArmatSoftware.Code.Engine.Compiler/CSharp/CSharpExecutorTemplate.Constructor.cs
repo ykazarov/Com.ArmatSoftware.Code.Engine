@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace ArmatSolutions.Code.Engine.Compiler.CSharp
+namespace ArmatSoftware.Code.Engine.Compiler.CSharp
 {
 	/// <summary>
 	/// Partial executor template for Configuration initialization

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ArmatSolutions.Code.Engine.Tests.Unit
+namespace ArmatSoftware.Code.Engine.Tests.Unit
 {
 	public class TestSubject
 	{

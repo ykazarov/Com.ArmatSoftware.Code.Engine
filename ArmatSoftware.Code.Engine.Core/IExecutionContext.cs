@@ -1,4 +1,4 @@
-﻿namespace ArmatSolutions.Code.Engine.Core
+﻿namespace ArmatSoftware.Code.Engine.Core
 {
 	/// <summary>
 	/// Execution context offers tools necessary at run-time during execution of the actions
