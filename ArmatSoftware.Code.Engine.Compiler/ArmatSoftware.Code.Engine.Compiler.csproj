@@ -9,7 +9,7 @@
     <Owners>Armat Software LLC</Owners>
     <PackageProjectUrl>https://github.com/ykazarov/Com.ArmatSoftware.Code.Engine</PackageProjectUrl>
     <Description>Essential components for custom code compilation and execution at run time</Description>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <PackOnBuild>true</PackOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
