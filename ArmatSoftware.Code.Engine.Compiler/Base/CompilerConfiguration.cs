@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using ArmatSoftware.Code.Engine.Compiler;
 using ArmatSoftware.Code.Engine.Core;
 
-namespace ArmatSoftware.Code.Engine.Tests.Unit
+namespace ArmatSoftware.Code.Engine.Compiler.Base
 {
 	/// <summary>
 	/// Default implementation of the configuration contract
