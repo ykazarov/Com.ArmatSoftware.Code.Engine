@@ -39,7 +39,7 @@ namespace ArmatSoftware.Code.Engine.Compiler.CSharp
 			codeGenerator.Initialize();
 			var code = codeGenerator.TransformText();
 
-			var moduleName = $"{configuration.GetNamespace()}.{configuration.GetClassName()}";
+			var executorClassName = $"{configuration.GetNamespace()}.{configuration.GetClassName()}";
 
 			SyntaxTree syntaxTree = CSharpSyntaxTree.ParseText(text: code);
 
@@ -63,9 +63,11 @@ namespace ArmatSoftware.Code.Engine.Compiler.CSharp
 
 			var assembly = AssemblyLoadContext.Default.LoadFromStream(stream);
 
-			var executorInstanceHandle = Activator.CreateInstance(assembly.FullName, moduleName) as ObjectHandle;
+			var executorClassType = assembly.GetType(executorClassName);
 
-			return (IExecutor<S>)executorInstanceHandle.Unwrap();
+			var executorInstanceHandle = Activator.CreateInstance(executorClassType);
+
+			return (IExecutor<S>)executorInstanceHandle;
 		}
 
 		/// <summary>
